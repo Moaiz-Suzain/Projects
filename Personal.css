@@ -1,0 +1,280 @@
+
+h1 {
+
+    margin: 0px;
+    color:#869843;
+    font-size: 24px;
+    font-family: "Arial Narrow", "Myriad Pro";
+    font-weight: normal;
+
+}
+
+.link-title {
+
+    color: #444444;
+    text-decoration: none;
+    font-size: 24px; 
+    font-family: "Arial Narrow","Myriad Pro" ;
+
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+	background: #f9f9f9;
+	box-shadow: 0px 9px 13px 5px;
+
+
+}
+
+.header {
+
+	padding: 45px 0 20px 40px;
+
+
+
+}
+
+.menu {
+
+	background: #3b7687;
+	padding: 6px 0 6px 40px ;
+
+
+}
+
+.menu a {
+
+	color: #c5d6db;
+	text-decoration: none;
+	font-size: 15px;
+	font-family: "Arial Narrow","Myriad Pro" ;
+
+}
+
+.menu a:hover {
+
+	color: #ecf2f3;
+
+
+}
+
+aside {
+
+	float: left;
+	width: 120px;
+	height: 700px;
+	padding: 30px 0 0 40px;
+
+
+}
+
+
+strong {
+
+	margin: 0px;
+	color: #869843;
+	font-size: 30px;
+	 font-family: "Arial Narrow","Myriad Pro" ;
+	 font-weight: normal;
+
+
+
+}
+
+.main {
+
+	margin: 0 0 0 180px;
+	padding: 35px 40px 30px 0;
+	color: #444444;
+	font-family: "Georgia";
+	font-size: 15px;
+	line-height: 20px;
+	text-align: justify;
+
+
+}
+
+.main a:hover  {
+
+    color: #444444
+
+
+
+}
+
+#home-image img {
+
+	width: 100%
+
+}
+
+.Info-little {
+
+	font-size: 20px;
+	text-align: justify-all;
+
+}
+
+footer {
+ 
+    padding: 6px 40px 6px 40px ;
+    background: #d6d6d6;
+    font-family: "Lucida Sans Unicode";
+    column-rule: #444444;
+    font-size: 15PX;
+    text-decoration: right;
+	color: #262323;
+
+
+}
+
+footer a {
+ 
+    text-decoration: none;
+    color: #262626;
+
+
+
+}
+
+.separator {
+
+    color: #ffffff;
+    font-size: 11px;
+
+
+}
+
+/************ About Page Styles ************/
+
+h2 {
+
+    color:#3b7687;
+    font-size: 15px;
+    margin: 20px 0 5px 0;
+    
+}
+
+
+#about-page #home-image img {
+    
+    width: 70%;
+    float: left;
+    margin-bottom: 10px;
+
+}
+
+#about-page #profile-info {
+
+    float: right;
+    width: 15%;
+    margin: 5px;
+
+
+}
+
+#about-page .description {
+
+    clear: right; 
+    padding: 5px 5px 5px 5px ;
+
+}
+
+table {
+
+	padding: 2px 2px 2px 2px ;
+	border: 4px solid Blue ;
+	box-shadow: 2px 2px 3px 4px ;
+	background-color: #000000;
+	color: #f4f4f4;
+}
+
+thead .header {
+
+	padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+
+}
+
+#content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + #content {
+  padding-top: 102px;
+}
+
+.school {
+
+	text-decoration: none;
+	font-size: 15px;
+	font-family: "Arial Narrow","Myriad Pro" ; 
+	font-weight: bolder;
+	color: red;
+
+}
+
+/************* Contact Page Styles *************/
+
+#contact #form {
+
+	width: 500px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+	box-shadow: 0px 9px 13px 5px;
+	border-radius: 10px;
+
+
+
+}
+
+.page-heading {
+
+	margin: 0px;
+	color: #869843;
+	font-size: 30px;
+	 font-family: "Arial Narrow","Myriad Pro" ;
+	 font-weight: normal;
+	 text-align: center;
+	 margin-bottom: 20px;
+
+
+
+
+}
+
+#contact #form input {
+
+	width: 100%;
+    border-radius: 5px;
+    height: 20px;
+    background: #d6d6d6;
+
+}
+
+#contact #form #message {
+
+	width: 495px;
+    border-radius: 5px;
+    height: 213px;
+    background: #d6d6d6;
+
+
+
+}
+
+#contact #form #submit {
+
+	height: 30px;
+    background: #3b7687;
+
+
+}
