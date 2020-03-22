@@ -1,8 +1,8 @@
-<?php ob_start();
+<?php
 
 
 
-	if(!empty($_POST['submit'])) {
+if(!empty($_POST['submit'])) {
 	$name = $_POST["name"];	
 	$to = "moaizsuzain@gmail.com";
 	$subject = $_POST['subject'];
@@ -20,7 +20,7 @@
     
 		
 	
-	}
+}
 
 
 
