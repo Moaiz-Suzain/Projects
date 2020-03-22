@@ -2,16 +2,18 @@
 
 
 
-	if(isset($_POST['submit'])) {
-		
+	if(!empty($_POST['submit'])) {
+	$name = $_POST["name"];	
 	$to = "moaizsuzain@gmail.com";
 	$subject = $_POST['subject'];
 	$email = $_POST['email'];
 	$txt = $_POST['message'];
-	$headers = "From: " .$email . "\r\n" ;
-	"CC: fazlehassan76@gmail.com";
+	$headers = "From: " . $name . "<". $email . ">\r\n":
 	
-	mail($to,$subject,$txt,$headers);
+	if(mail($to,$subject,$txt,$headers)) {
+		$message = "Your message has been sent.";
+		$type = "success";
+	}
 	
 	header("Location: contact.html");
 	
