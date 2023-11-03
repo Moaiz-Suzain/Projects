@@ -1,0 +1,7 @@
+Ask the user for the what they wanna process in bank.
+
+Plan out the logic for the process to go through.
+
+Ask the user the function they wanna perform at bank.
+
+Plan out the logic for the above.
